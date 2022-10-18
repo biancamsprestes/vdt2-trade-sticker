@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221004 18:38:53.272" rpa="false" schemaversion="3">
+<suite id="s1" name="Trade-Sticker" source="C:\vdt2\trade-sticker">
+<suite id="s1-s1" name="Tests" source="C:\vdt2\trade-sticker\tests">
+<suite id="s1-s1-s1" name="Login" source="C:\vdt2\trade-sticker\tests\login.robot">
+<test id="s1-s1-s1-t1" name="New Browser" line="10">
+<kw name="headless=False">
+<msg timestamp="20221004 18:38:55.685" level="FAIL">No keyword with name 'headless=False' found.</msg>
+<status status="FAIL" starttime="20221004 18:38:55.682" endtime="20221004 18:38:55.690"/>
+</kw>
+<status status="FAIL" starttime="20221004 18:38:55.669" endtime="20221004 18:38:55.697">No keyword with name 'headless=False' found.</status>
+</test>
+<doc>Login tests</doc>
+<status status="FAIL" starttime="20221004 18:38:53.385" endtime="20221004 18:38:55.709"/>
+</suite>
+<status status="FAIL" starttime="20221004 18:38:53.370" endtime="20221004 18:38:55.720"/>
+</suite>
+<status status="FAIL" starttime="20221004 18:38:53.285" endtime="20221004 18:38:55.726"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Trade-Sticker">Trade-Sticker</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">Trade-Sticker.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Login">Trade-Sticker.Tests.Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
