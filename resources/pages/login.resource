@@ -13,6 +13,20 @@ Submit Credentials
     Fill Text               css=input[name=password]     ${password}
     Click                   css=button >> text=Entrar
 
+Submit Credentials whidhout password
+    [Arguments]            ${email}        
+    Fill Text               css=input[name=email]        ${email}
+    Click                   css=button >> text=Entrar   
+    
+Submit Credentials whidhout email
+    [Arguments]            ${password}      
+    Fill Text               css=input[name=password]     ${password}
+    Click                 css=button >> text=Entrar
+
+Submit Credentials whidhout email and password
+    [Arguments]                 
+    Click                 css=button >> text=Entrar
+
 Toast Message Shoud Be 
     [Arguments]               ${expected_message}
 
